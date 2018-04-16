@@ -1,0 +1,49 @@
+{
+	"Clientes": [{
+			"_class": "es.unileon.ulebankoffice.domain.ClienteDomain",
+
+			"name": "Razvan",
+			"lastName": "Raducu",
+			"dni": {
+				"_class": "es.unileon.ulebankoffice.domain.DNIHandler",
+				"_id": "X5526828C"
+			},
+			"fechaNacimiento": {
+				"$date": "1994-12-04T23:00:00.000Z"
+			},
+			"email": "rraduc00@estudiantes.unileon.es",
+			"direcciones": [{
+					"_class": "es.unileon.ulebankoffice.domain.DireccionDomain",
+					"calle": "ejemploStreet",
+					"localidad": "León",
+					"comunidadAutonoma": "León",
+					"numero": "S/N",
+					"codigoPostal": 39400,
+					"dni": {
+						"_class": "es.unileon.ulebankoffice.domain.DNIHandler",
+						"_id": "X5526828C"
+					}
+				},
+				{
+					"_class": "es.unileon.ulebankoffice.domain.DireccionDomain",
+					"calle": "ejemploStreet",
+					"localidad": "Santander",
+					"comunidadAutonoma": "Cantabria",
+					"numero": "S/N",
+					"codigoPostal": 39400,
+					"dni": {
+						"_class": "es.unileon.ulebankoffice.domain.DNIHandler",
+						"_id": "X5526828C"
+					}
+				}
+			],
+			"nacionalidad": "español",
+			"idDocumentos": [
+
+				"documento1",
+				"documento2"
+			]
+		}
+
+	]
+}

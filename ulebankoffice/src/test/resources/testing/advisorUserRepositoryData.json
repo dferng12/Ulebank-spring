@@ -1,0 +1,19 @@
+{
+	"AdvisorUsers": [{
+			"_class": "es.unileon.ulebankoffice.domain.AdvisorUserDomain",
+
+			"email": "email@example.com",
+			"realizadoTest": false,
+			"resultadoTest": 0.0,
+			"solicitudes": [{
+					"_class": "es.unileon.ulebankoffice.domain.SolicitudFinancialAdvisorDomain",
+					"textoOferta": "textoOferta",
+					"enlaceOferta": "enlaceOferta",
+					"rutaOferta": "rutaOferta"
+					
+				}
+			]
+		}
+
+	]
+}

@@ -1,0 +1,56 @@
+{
+   "CuentasCorrientes":[
+      {
+         "_class":"es.unileon.ulebankoffice.domain.CuentaCorrienteDomain",
+         "estado" : "abierta",
+         "interesesAcreedores": 1.0,
+         "interesDeudorSobreSaldosNegativos" : 1.0,
+         "retencionRendimientosCapital" : 1.0,
+         "comisionMantenimiento" : 1.0,
+         "comisionDescubierto" : 1.0,
+         "minimoComisionDescubierto" : 1.0,
+         "diasAnuales" : 360,
+         "periodoLiquidacion" : 4,
+         "saldo" : 100.0,
+         "numeroDeCuenta" : "abc001",
+         "dni":{
+            "_class":"es.unileon.ulebankoffice.domain.DNIHandler",
+            "_id":"X5526828C"
+         },
+      },
+      
+       {
+         "_class":"es.unileon.ulebankoffice.domain.CuentaCorrienteDomain",
+         "estado" : "cerrada",
+          "interesesAcreedores": 1.0,
+         "interesDeudorSobreSaldosNegativos" : 1.0,
+         "retencionRendimientosCapital" : 1.0,
+         "comisionMantenimiento" : 1.0,
+         "comisionDescubierto" : 1.0,
+         "minimoComisionDescubierto" : 1.0,
+         "diasAnuales" : 360,
+         "periodoLiquidacion" : 4,
+         "dni":{
+            "_class":"es.unileon.ulebankoffice.domain.DNIHandler",
+            "_id":"X5526828C"
+         },
+      },
+      
+       {
+         "_class":"es.unileon.ulebankoffice.domain.CuentaCorrienteDomain",
+         "estado" : "abierta",
+         "interesesAcreedores": 1.0,
+         "interesDeudorSobreSaldosNegativos" : 1.0,
+         "retencionRendimientosCapital" : 1.0,
+         "comisionMantenimiento" : 1.0,
+         "comisionDescubierto" : 1.0,
+         "minimoComisionDescubierto" : 1.0,
+         "diasAnuales" : 360,
+         "periodoLiquidacion" : 4,
+         "dni":{
+            "_class":"es.unileon.ulebankoffice.domain.DNIHandler",
+            "_id":"X4975127C"
+         },
+      }
+   ]
+}
